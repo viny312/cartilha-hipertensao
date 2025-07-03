@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cartilha Interativa: Autocuidado e Hipertensão</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; background-color: #f0f0f0; margin: 0; padding: 0; color: #333; }
+    .container { padding: 20px; max-width: 600px; margin: auto; }
+    h1 { text-align: center; color: #2c3e50; margin-bottom: 30px; }
+    .accordion { background-color: #fff; border-radius: 10px; margin-bottom: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); overflow: hidden; }
+    .accordion-header { padding: 15px; cursor: pointer; font-weight: bold; background-color: #e0e0e0; }
+    .accordion-content { max-height: 0; overflow: hidden; transition: max-height 0.3s ease; padding: 0 15px; background-color: #fff; }
+    .accordion-content p { padding: 10px 0; }
+    .accordion.open .accordion-content { max-height: 500px; padding: 15px; }
+    footer { text-align: center; font-size: 12px; color: #777; margin-top: 30px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🩺 Cartilha Interativa: Autocuidado e Adesão ao Tratamento da Hipertensão</h1>
+
+    <div class="accordion">
+      <div class="accordion-header">📌 O que é Hipertensão?</div>
+      <div class="accordion-content">
+        <p>A hipertensão é quando a pressão arterial se mantém constantemente acima de 140/90 mmHg.</p>
+        <p>Ela é conhecida como "assassina silenciosa" por não apresentar sintomas em muitos casos.</p>
+      </div>
+    </div>
+
+    <div class="accordion">
+      <div class="accordion-header">❤️ Importância do Autocuidado</div>
+      <div class="accordion-content">
+        <p>O autocuidado é fundamental para controlar a hipertensão. Envolve hábitos saudáveis e disciplina diária:</p>
+        <p>• Monitorar a pressão regularmente<br>• Ter alimentação equilibrada<br>• Praticar atividades físicas<br>• Dormir bem<br>• Reduzir o estresse</p>
+      </div>
+    </div>
+
+    <div class="accordion">
+      <div class="accordion-header">💊 Adesão ao Tratamento</div>
+      <div class="accordion-content">
+        <p>A adesão correta ao tratamento é essencial para evitar complicações.</p>
+        <p>• Tomar os medicamentos na hora certa<br>• Seguir as orientações médicas<br>• Não interromper o uso sem orientação<br>• Comparecer às consultas de rotina</p>
+      </div>
+    </div>
+
+    <div class="accordion">
+      <div class="accordion-header">🏃‍♂️ Atividades Físicas Recomendadas</div>
+      <div class="accordion-content">
+        <p>Exercícios regulares ajudam a reduzir a pressão arterial:</p>
+        <p>• Caminhadas (30 min por dia)<br>• Andar de bicicleta<br>• Dança<br>• Natação<br>• Alongamentos e ioga</p>
+        <p>Evite atividades de esforço intenso sem liberação médica.</p>
+      </div>
+    </div>
+
+    <div class="accordion">
+      <div class="accordion-header">🍎 Prevenção e Controle</div>
+      <div class="accordion-content">
+        <p>✅ Reduzir o consumo de sal<br>✅ Praticar atividades físicas<br>✅ Manter o peso saudável<br>✅ Evitar álcool e cigarro<br>✅ Controlar o estresse<br>✅ Medir a pressão regularmente</p>
+      </div>
+    </div>
+
+    <div class="accordion">
+      <div class="accordion-header">💥 Complicações</div>
+      <div class="accordion-content">
+        <p>• AVC (derrame cerebral)<br>• Infarto do miocárdio<br>• Insuficiência cardíaca<br>• Comprometimento dos rins<br>• Perda de visão</p>
+      </div>
+    </div>
+
+    <div class="accordion">
+      <div class="accordion-header">📞 Quando procurar ajuda?</div>
+      <div class="accordion-content">
+        <p>Procure atendimento médico imediato se tiver:</p>
+        <p>• Dor no peito<br>• Falta de ar intensa<br>• Pressão muito alta<br>• Fraqueza em um lado do corpo<br>• Alteração na fala ou visão</p>
+      </div>
+    </div>
+
+    <footer>© 2025 - Cartilha Digital Hipertensão</footer>
+  </div>
+
+  <script>
+    const accordions = document.querySelectorAll('.accordion');
+    accordions.forEach(acc => {
+      acc.querySelector('.accordion-header').addEventListener('click', () => {
+        acc.classList.toggle('open');
+      });
+    });
+  </script>
+</body>
+</html>
